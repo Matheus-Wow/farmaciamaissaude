@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Farmácia MaisSaúde</title>
+        <link rel = "stylesheet" href = "./css/styles.css">
+        <script src = "./js/scripts.js"></script>
+    </head>
+    <body>
+        <h1>Farmácia MaisSaúde</h1>
+        <h4>A melhor rede de farmácias do estado!</h4>
+
+        <label for = "medicamento">Medicamento:</label>
+        <input type = "text" id = "medicamento">
+        <br><br>
+        <label style = "padding-right: 19px;" for = "preco">Preço (R$):</label>
+        <input type = "number" id = "preco">
+        <br><br>
+        <button type = "button" onClick = "calcularDesconto()">Mostrar promoção</button>
+        <br><br>
+        <b id = 'medNameExtra'></b>
+        <br><br>
+        <b id = 'price'></b>
+    </body>
+</html>
